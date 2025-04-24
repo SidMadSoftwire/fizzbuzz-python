@@ -8,6 +8,8 @@ def fizzbuzz():
             word += "Buzz"
         if i % 7 == 0:
             word += "Bang"
+        if i % 11 == 0:
+            word = "Bong"
         if word == "":
             print(i)
         else:
