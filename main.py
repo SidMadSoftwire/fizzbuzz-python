@@ -6,6 +6,8 @@ def fizzbuzz():
             word += "Fizz"
         if i % 5 == 0:
             word += "Buzz"
+        if i % 7 == 0:
+            word += "Bang"
         if word == "":
             print(i)
         else:
